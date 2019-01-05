@@ -1,0 +1,28 @@
+@mixin iconBg ($src){
+  background: url($src) no-repeat center/100%
+}
+.icon-search{
+  @include iconBg("../images/icon-search.png");
+  width:30rpx;
+  height: 30rpx;
+}
+.icon-school-activity{
+  @include iconBg("../images/icon-school-activity.png");
+  width:57rpx;
+  height: 57rpx;
+}
+.icon-flea-market{
+  @include iconBg("../images/icon-flea-market.png");
+  width:57rpx;
+  height: 57rpx;
+}
+.icon-thing-get{
+  @include iconBg("../images/icon-thing-get.png");
+  width:57rpx;
+  height: 57rpx;
+}
+.icon-resource-share{
+  @include iconBg("../images/icon-resource-share.png");
+  width:57rpx;
+  height: 57rpx;
+}
