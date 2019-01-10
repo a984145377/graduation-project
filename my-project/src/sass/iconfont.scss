@@ -26,3 +26,38 @@
   width:57rpx;
   height: 57rpx;
 }
+.icon-color-single-top{
+  @include iconBg("../images/icon-color-single-top.png");
+  width:15rpx;
+  height: 15rpx;
+}
+.icon-noColor-single-top{
+  @include iconBg("../images/icon-noColor-single-top.png");
+  width:15rpx;
+  height: 15rpx;
+}
+.icon-color-single-bottom{
+  @include iconBg("../images/icon-color-single-bottom.png");
+  width:15rpx;
+  height: 15rpx;
+}
+.icon-noColor-single-bottom{
+  @include iconBg("../images/icon-noColor-single-bottom.png");
+  width:15rpx;
+  height: 15rpx;
+}
+.icon-share{
+  @include iconBg("../images/icon-share.png");
+  width:35rpx;
+  height: 35rpx;
+}
+.icon-comment{
+  @include iconBg("../images/icon-comment.png");
+  width:35rpx;
+  height: 35rpx;
+}
+.icon-dianzan{
+  @include iconBg("../images/icon-dianzan.png");
+  width:40rpx;
+  height: 40rpx;
+}

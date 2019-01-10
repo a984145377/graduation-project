@@ -1,24 +1,56 @@
+.fs-22{
+  font-size: 22rpx;
+}
 .fs-24{
   font-size: 24rpx;
+}
+.fs-26{
+  font-size: 26rpx;
+}
+.fs-30{
+  font-size: 30rpx;
+}
+.fs-32{
+  font-size: 32rpx;
 }
 
 
 
-
+.mgl-20{
+  margin-left:20rpx;
+}
 .mgl-30{
   margin-left:30rpx;
 }
 .mgl-35{
   margin-left: 35rpx;
 }
+
+
 .mgr-35{
   margin-right:35rpx;
 }
+
+
 .mgb-35{
   margin-bottom: 35rpx;
 }
 
 
+.mgt-20{
+  margin-top:20rpx;
+}
+
+
+.pdl-20{
+  padding-left:20rpx;
+}
+.pdt-26{
+  padding-top:26rpx;
+}
+.pdr-20{
+  padding-right: 20rpx;
+}
 //垂直居中
 .flex-col-center{
   display: flex;
@@ -31,4 +63,34 @@
 //水平居中
 .mar-ver-center{
   margin: 0 auto;
+}
+
+.ellipse-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin noScrollBar() {
+  &::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+@mixin ellipsis($line: 2) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+}
+
+.ellipse-2 {
+  @include ellipsis(2);
+}
+.ellipse-6 {
+  @include ellipsis(6);
 }
