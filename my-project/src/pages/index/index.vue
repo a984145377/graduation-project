@@ -15,14 +15,14 @@
     <p class="pdl-20 index-title">树洞说说</p>
     <!-- 最新、最热 -->
     <div class="index-bar mgt-20">
-      <div class="index-bar-hot">
+      <div class="index-bar-hot flex-center">
         <span class="fs-32">最热</span>
         <div class="index-bar-single">
           <i class="icon-noColor-single-top"></i>
           <i class="icon-noColor-single-bottom"></i>
         </div>
       </div>
-      <div class="index-bar-new">
+      <div class="index-bar-new flex-center">
         <span class="fs-32">最新</span>
         <div class="index-bar-single">
           <i class="icon-noColor-single-top"></i>          
@@ -33,6 +33,7 @@
     <!-- 分割线 -->
     <messages v-for="(item,index) of messageList" :key="index" :item="item"></messages>
     <messages v-for="(item,index) of messageList" :key="index" :item="item"></messages>
+
     <!-- <messages :item="messageList"></messages> -->
   </div>
 </template>
@@ -41,11 +42,12 @@
   import Search from '@C/search'
   import CutOffLine from '@C/cutOffLine'
   import Messages from '@C/message'
+  
   export default {
     components:{
       Search,
       CutOffLine,
-      Messages
+      Messages,
     },
     data(){
       return{
@@ -104,9 +106,6 @@
       display: flex;
       >div{
         flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center; 
         >span{
           margin-right: 11rpx;
         }
@@ -115,7 +114,6 @@
 
       }
       &-new{
-
       }
     }
     .footer{

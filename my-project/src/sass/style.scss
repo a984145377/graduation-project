@@ -7,6 +7,9 @@
 .fs-26{
   font-size: 26rpx;
 }
+.fs-28{
+  font-size: 28rpx;
+}
 .fs-30{
   font-size: 30rpx;
 }
@@ -37,6 +40,9 @@
 }
 
 
+.mgt-10{
+  margin-top:10rpx;
+}
 .mgt-20{
   margin-top:20rpx;
 }
@@ -59,6 +65,11 @@
 .flex-ver-center{
   display: flex;
   justify-content: center;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 //水平居中
 .mar-ver-center{
@@ -93,4 +104,8 @@
 }
 .ellipse-6 {
   @include ellipsis(6);
+}
+
+.rotate{
+  transform: rotate(-90deg)
 }

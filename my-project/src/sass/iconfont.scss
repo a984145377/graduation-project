@@ -61,3 +61,36 @@
   width:40rpx;
   height: 40rpx;
 }
+.icon-setting{
+  @include iconBg("../images/icon-setting.png");
+  width:50rpx;
+  height: 50rpx;
+}
+.icon-user-dianzan{
+  @include iconBg("../images/icon-user-dianzan.png");
+  width:50rpx;
+  height: 50rpx;
+}
+
+.icon-user-compile{
+  @include iconBg("../images/icon-user-compile.png");
+  width:43rpx;
+  height: 43rpx;
+}
+
+.icon-user-liulan{
+  @include iconBg("../images/icon-user-liulan.png");
+  width:50rpx;
+  height: 50rpx;
+}
+.icon-user-bangzhi{
+  @include iconBg("../images/icon-user-bangzhi.png");
+  width:50rpx;
+  height: 50rpx;
+}
+.icon-xiala{
+  @include iconBg("../images/icon-xiala.png");
+  width:40rpx;
+  height: 40rpx;
+}
+
