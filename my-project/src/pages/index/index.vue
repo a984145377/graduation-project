@@ -33,8 +33,6 @@
     <!-- 分割线 -->
     <messages v-for="(item,index) of messageList" :key="index" :item="item"></messages>
     <messages v-for="(item,index) of messageList" :key="index" :item="item"></messages>
-
-    <!-- <messages :item="messageList"></messages> -->
   </div>
 </template>
 
